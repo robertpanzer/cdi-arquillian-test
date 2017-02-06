@@ -1,0 +1,15 @@
+= Basic examples for Arquillian tests with a CDI standalone container
+
+This project shows how to run basic CDI standalone tests with Arquillian.
+
+To run the tests with OpenWebBeans:
+
+----
+mvn -Powb test
+----
+
+To run the tests with Weld:
+
+----
+mvn -Pweld test
+----
